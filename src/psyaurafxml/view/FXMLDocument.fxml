@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="psyaurafxml.controller.FXMLDocumentController">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="200.0">
+         <children>
+            <AnchorPane layoutX="74.0" prefHeight="404.0" prefWidth="289.0" style="-fx-background-color: #7A003D;">
+               <children>
+                  <ImageView fitHeight="411.0" fitWidth="239.0" layoutX="57.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../c4f62b54-977a-423c-aa44-676d5b237f0c.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="60.0" layoutY="235.0" prefHeight="118.0" prefWidth="225.0" style="-fx-text-fill: #FFFFFF;" text="Découvrez comment votre type de personnalité influence de nombreux aspects de votre vie." textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                     </font></Label>
+                  <Label layoutX="57.0" layoutY="99.0" prefHeight="118.0" prefWidth="225.0" style="-fx-text-fill: #FFFFFF;" text="Soyez vous-même et répondez en toute sincérité pour découvrir votre type de personnalité." textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="362.0" layoutY="4.0" prefHeight="400.0" prefWidth="483.0" style="-fx-background-color: beige;">
+               <children>
+                  <Label ellipsisString="" layoutX="26.0" layoutY="47.0" prefHeight="46.0" prefWidth="330.0" style="-fx-text-fill: #800020;" text="Bienvenue à PsyAura" AnchorPane.rightAnchor="127.0">
+                     <font>
+                        <Font name="Forte" size="36.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="42.0" layoutY="147.0" prefHeight="31.0" prefWidth="283.0" style="-fx-text-fill: #34495e; -fx-font-size: 18px; -fx-font-weight: bold;" text="🌟 Explorez Votre Personnalité 🌟">
+                     <font>
+                        <Font name="Yu Gothic UI Light" size="18.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="btnstart" layoutX="120.0" layoutY="302.0" mnemonicParsing="false" onAction="#navigateToNextScreen" style="-fx-text-fill: white; -fx-background-color: #34495e;" text="Lancer l’exploration">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Button>
+                  <Label alignment="CENTER" ellipsisString="" layoutX="38.0" layoutY="178.0" lineSpacing="1.0" prefHeight="87.0" prefWidth="283.0" style="-fx-text-fill: #1F316F;" text="Des tests uniques pour révéler votre personnalité et explorer votre potentiel." textAlignment="CENTER" textOverrun="LEADING_ELLIPSIS" wrapText="true">
+                     <font>
+                        <Font name="Goudy Old Style" size="17.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

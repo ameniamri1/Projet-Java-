@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: BEIGE;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="psyaurafxml.controller.UserTestsController">
+   <children>
+      <Label layoutX="157.0" layoutY="43.0" style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-text-fill: #800020;" text="Choisissez le type de Test">
+         <font>
+            <Font name="Times New Roman" size="32.0" />
+         </font>
+      </Label>
+      <Button fx:id="pessimisme" layoutX="230.0" layoutY="183.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="139.0" style="-fx-background-color: #9bae98; -fx-font-weight: bold; -fx-text-fill: white;" text="Pessimisme">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button fx:id="optimisme" layoutX="230.0" layoutY="117.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="139.0" style="-fx-background-color: #9bae98; -fx-text-fill: white; -fx-font-weight: bold;" text="Optimisme">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button fx:id="depression" layoutX="230.0" layoutY="314.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="139.0" style="-fx-background-color: #9bae98; -fx-text-fill: white; -fx-font-weight: bold;" text="Depression">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button fx:id="confiance" layoutX="230.0" layoutY="245.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="139.0" style="-fx-background-color: #9bae98; -fx-font-weight: bold; -fx-text-fill: white;" text="Confiance">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button fx:id="retournerButton" layoutX="20.0" layoutY="357.0" mnemonicParsing="false" onAction="#handleRetour" style="-fx-background-color: #34495e; -fx-font-weight: bold; -fx-text-fill: white;" text="RETOUR" />
+
+   </children>
+   
+</AnchorPane>
